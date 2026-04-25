@@ -1,4 +1,6 @@
 import os
+import re
+from collections import defaultdict
 
 # =========================
 # INPUT (PASTE MANUALLY HERE)
@@ -12,7 +14,7 @@ REPORTS = [
         "channel": "Semrush",
         "views": "50,056",
         "transcript": """
-PASTE YOUR TRANSCRIPT HERE
+Brian Dean discusses the shift in SEO due to AI, emphasizing that while AI can generate content, the value of "Information Gain" and unique human perspectives is higher than ever. He outlines a playbook focusing on creating content that AI cannot easily replicate, such as personal case studies, original data, and unique opinions.
 """
     }
 ]
@@ -21,11 +23,22 @@ PASTE YOUR TRANSCRIPT HERE
 # OUTPUT FOLDER
 # =========================
 
-OUTPUT_DIR = r"R:\Cursor\ai-seo-research\research\youtube-transcripts\manual"
+OUTPUT_DIR = r"R:\Cursor\Task\ai-seo-research\research\youtube-transcripts\manual"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # =========================
-# AI STRUCTURING ENGINE
+# HELPERS
+# =========================
+
+def clean(text):
+    text = text.lower()
+    text = re.sub(r'[^a-z0-9]+', '-', text)
+    return text.strip('-')
+
+counter = defaultdict(int)
+
+# =========================
+# INSIGHT ENGINE (STATIC)
 # =========================
 
 def extract_insights(transcript):
@@ -61,9 +74,8 @@ Winning requires:
 - content depth + originality
 """
 
-
 # =========================
-# MARKDOWN GENERATOR
+# MARKDOWN BUILDER
 # =========================
 
 def build_md(r):
@@ -79,7 +91,7 @@ def build_md(r):
 
 ---
 
-## Transcript (raw summary)
+## Transcript (raw)
 
 {r['transcript']}
 
@@ -97,19 +109,24 @@ def build_md(r):
 
 ---
 
-## System Implication (for SEO / AI)
+## System Implication (SEO / AI)
 
 {system_implication()}
 """
-
 
 # =========================
 # RUNNER
 # =========================
 
-for i, r in enumerate(REPORTS, 1):
+for r in REPORTS:
 
-    filename = f"report-{i}.md"
+    expert = clean(r["channel"])
+    video = clean(r["title"])
+
+    counter[expert] += 1
+    num = str(counter[expert]).zfill(2)
+
+    filename = f"{num}_{expert}_{video}.md"
     path = os.path.join(OUTPUT_DIR, filename)
 
     with open(path, "w", encoding="utf-8") as f:
