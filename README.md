@@ -1,6 +1,12 @@
-<<<<<<< HEAD
 # AI SEO Research Project
-=======
-# ai-seo-research
-AI-powered marketing research for B2B SaaS growth strategies
->>>>>>> 73012213cf31b1cf63cfc8418a06255c390674fc
+
+This project collects and analyzes insights from 10 SEO experts on AI-powered content production.
+
+## Goal
+Build structured knowledge from real practitioners in SEO and SaaS growth marketing.
+
+## Contents
+- Expert sources
+- LinkedIn posts
+- YouTube transcripts
+- Strategic insights
