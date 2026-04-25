@@ -3,18 +3,21 @@ import re
 from collections import defaultdict
 
 # =========================
-# INPUT (PASTE MANUALLY HERE)
+# INPUT (SINGLE VIDEO)
 # =========================
 
 REPORTS = [
     {
-        "title": "Brian Dean — SEO in the AI Era (Full Playbook Breakdown)",
-        "url": "https://www.youtube.com/watch?v=oxkykvTcN_Y",
-        "date": "Mar 13, 2024",
-        "channel": "Semrush",
-        "views": "50,056",
+       "title": "SEO in 2025: Visibility, Trust & the End of the Click Economy",
+        "url": "https://www.youtube.com/watch?v=Vt_C1pEfNd8",
+        "date": "Dec 10, 2024",
+        "channel": "AirOps & Kevin Indig",
+        "views": "2,100",
         "transcript": """
-Brian Dean discusses the shift in SEO due to AI, emphasizing that while AI can generate content, the value of "Information Gain" and unique human perspectives is higher than ever. He outlines a playbook focusing on creating content that AI cannot easily replicate, such as personal case studies, original data, and unique opinions.
+Kevin explains that 2024 was the 'Peak Traffic' year. In 2025 and 2026, click-through rates 
+are declining because AI Overviews answer the user's question directly on the search page. 
+He argues that SEOs must now focus on 'Information Gain'—providing data that AI doesn't 
+already have—to force a click.
 """
     }
 ]
@@ -38,41 +41,43 @@ def clean(text):
 counter = defaultdict(int)
 
 # =========================
-# INSIGHT ENGINE (STATIC)
+# DYNAMIC INSIGHTS
 # =========================
 
 def extract_insights(transcript):
-    return [
-        "SEO is shifting from ranking system to trust distribution system",
-        "CTR is losing importance due to AI Overviews",
-        "Brand authority is becoming primary ranking influence",
-        "Search behavior is becoming multi-platform (Google + Reddit + YouTube)"
-    ]
+    t = transcript.lower()
+    insights = []
 
+    if "link" in t or "backlink" in t:
+        insights.append("Link building is shifting toward authority-based acquisition (Digital PR)")
 
-def action_items():
-    return [
-        "Shift SEO KPIs toward brand visibility",
-        "Build multi-platform distribution strategy",
-        "Strengthen trust signals on content pages",
-        "Integrate SEO with brand and product marketing"
-    ]
+    if "guest" in t:
+        insights.append("Traditional guest posting is losing effectiveness")
 
+    if "content" in t:
+        insights.append("Content originality and depth are key SEO signals")
 
-def system_implication():
-    return """
-SEO is no longer a keyword-based ranking system.
+    return insights if insights else ["General SEO discussion"]
 
-It is now a distributed trust network across:
-- search engines
-- social platforms
-- AI-generated summaries
+def action_items(transcript):
+    t = transcript.lower()
+    actions = []
 
-Winning requires:
-- brand authority
-- cross-platform presence
-- content depth + originality
-"""
+    if "link" in t or "backlink" in t:
+        actions.append("Focus on Digital PR instead of guest posting")
+
+    if "content" in t:
+        actions.append("Create more original, high-value content")
+
+    return actions if actions else ["Apply general SEO strategy"]
+
+def system_implication(transcript):
+    t = transcript.lower()
+
+    if "link" in t:
+        return "SEO is shifting from quantity-based links to authority-driven acquisition."
+
+    return "SEO is evolving into a multi-signal ranking system beyond keywords."
 
 # =========================
 # MARKDOWN BUILDER
@@ -80,7 +85,8 @@ Winning requires:
 
 def build_md(r):
     insights = extract_insights(r["transcript"])
-    actions = action_items()
+    actions = action_items(r["transcript"])
+    system_imp = system_implication(r["transcript"])
 
     return f"""# {r['title']}
 
@@ -111,7 +117,7 @@ def build_md(r):
 
 ## System Implication (SEO / AI)
 
-{system_implication()}
+{system_imp}
 """
 
 # =========================
