@@ -17,16 +17,18 @@
 
 ## Key Insights
 
-- General SEO discussion
+- Technical debt is the biggest barrier to AI visibility
+- Clean site architecture allows AI bots to index high-value pages faster
 
 ---
 
 ## Actionable Takeaways
 
-- Apply general SEO strategy
+- Prioritize mobile-first rendering and speed
+- Clean up internal linking to guide AI crawlers
 
 ---
 
 ## System Implication (SEO / AI)
 
-SEO is evolving into a multi-signal ranking system beyond keywords.
+Technical SEO is the foundational layer for AI search performance

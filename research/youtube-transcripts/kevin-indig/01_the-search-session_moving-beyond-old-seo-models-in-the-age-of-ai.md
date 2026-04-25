@@ -15,13 +15,15 @@ Kevin discusses how AI is reshaping visibility. He explains the move from entity
 
 ## Key Insights
 
-- Link building is shifting toward authority-based acquisition (Digital PR)
+- Search is shifting from "Finding Links" to "Executing Tasks" through AI agents
+- Context Engineering is becoming more valuable than traditional keyword research
 
 ---
 
 ## Actionable Takeaways
 
-- Focus on Digital PR instead of guest posting
+-Build "Reliability Racks"—dedicated site sections that provide verified factual data for LLMs
+- Audit how your brand appears in visual search and "AI Mode" contexts
 
 ---
 

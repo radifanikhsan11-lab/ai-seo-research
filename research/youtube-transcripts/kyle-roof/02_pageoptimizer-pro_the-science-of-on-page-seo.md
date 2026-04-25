@@ -17,16 +17,18 @@
 
 ## Key Insights
 
-- General SEO discussion
+- Keyword placement in key HTML tags still dictates relevance
+- Algorithms are mathematical models that reward technical structure
 
 ---
 
 ## Actionable Takeaways
 
-- Apply general SEO strategy
+- Focus on strict H1/Title/URL optimization
+- Use Schema to help algorithms map your page entities
 
 ---
 
 ## System Implication (SEO / AI)
 
-SEO is evolving into a multi-signal ranking system beyond keywords.
+Algorithms remain rule-based; technical precision is still a competitive edge

@@ -17,16 +17,18 @@
 
 ## Key Insights
 
-- General SEO discussion
+- Zero-click searches are the new normal in search behavior
+- Brand visibility on the SERP is as valuable as site traffic
 
 ---
 
 ## Actionable Takeaways
 
-- Apply general SEO strategy
+- Create "Zero-Click" content that provides value in the snippet
+- Track success through brand search volume and mentions
 
 ---
 
 ## System Implication (SEO / AI)
 
-SEO is evolving into a multi-signal ranking system beyond keywords.
+Marketing is shifting from capturing clicks to building brand influence

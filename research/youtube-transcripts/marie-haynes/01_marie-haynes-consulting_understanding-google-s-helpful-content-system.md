@@ -17,16 +17,18 @@
 
 ## Key Insights
 
-- Content originality and depth are key SEO signals
+- "Helpfulness" is a site-wide classifier, not just page-level
+- User utility is the ultimate metric for ranking
 
 ---
 
 ## Actionable Takeaways
 
-- Create more original, high-value content
+- Remove unhelpful or redundant content site-wide
+- Prioritize clarity and ease of navigation for users
 
 ---
 
 ## System Implication (SEO / AI)
 
-SEO is evolving into a multi-signal ranking system beyond keywords.
+Google is transitioning from a keyword engine to a "Helpfulness Engine."

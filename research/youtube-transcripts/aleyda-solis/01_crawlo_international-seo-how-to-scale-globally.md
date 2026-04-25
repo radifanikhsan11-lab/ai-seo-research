@@ -17,16 +17,18 @@
 
 ## Key Insights
 
-- General SEO discussion
+- AI scales localization but requires human oversight for cultural nuance
+- Technical accuracy (Hreflang) is more important as AI bots crawl global sites
 
 ---
 
 ## Actionable Takeaways
 
-- Apply general SEO strategy
+- Use AI for preliminary translations and technical audits
+- Localize content intent, not just language
 
 ---
 
 ## System Implication (SEO / AI)
 
-SEO is evolving into a multi-signal ranking system beyond keywords.
+Global SEO now requires AI-driven scale combined with localized technical health

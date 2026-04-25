@@ -17,16 +17,18 @@
 
 ## Key Insights
 
-- Content originality and depth are key SEO signals
+- Page-level optimization can overcome lower site authority
+- Data-driven testing is the only way to verify ranking signals
 
 ---
 
 ## Actionable Takeaways
 
-- Create more original, high-value content
+- A/B test different metadata structures
+- Focus on specific page-level technical wins
 
 ---
 
 ## System Implication (SEO / AI)
 
-SEO is evolving into a multi-signal ranking system beyond keywords.
+Scientific testing is the only way to cut through SEO speculation

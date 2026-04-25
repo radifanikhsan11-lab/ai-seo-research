@@ -17,16 +17,17 @@
 
 ## Key Insights
 
-- General SEO discussion
-
+- AI snapshots prioritize sites with established trust and reputation
+- Brand safety is critical for appearing in AI-generated answers
 ---
 
 ## Actionable Takeaways
 
-- Apply general SEO strategy
+- Audit site for E-E-A-T signals like author credentials
+- Optimize content for direct answers to win AI citations
 
 ---
 
 ## System Implication (SEO / AI)
 
-SEO is evolving into a multi-signal ranking system beyond keywords.
+Search results are evolving into curated AI answers based on site-wide trust.

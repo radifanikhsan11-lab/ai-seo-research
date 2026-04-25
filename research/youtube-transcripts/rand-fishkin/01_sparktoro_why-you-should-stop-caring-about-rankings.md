@@ -17,16 +17,18 @@
 
 ## Key Insights
 
-- General SEO discussion
+- Users trust people and niche communities over algorithms
+- Presence on high-influence platforms (Reddit/Podcasts) drives SEO
 
 ---
 
 ## Actionable Takeaways
 
-- Apply general SEO strategy
+- Identify where your audience hangs out off-site
+- Build brand authority through community engagement
 
 ---
 
 ## System Implication (SEO / AI)
 
-SEO is evolving into a multi-signal ranking system beyond keywords.
+SEO is becoming a multi-channel "Word of Mouth" strategy

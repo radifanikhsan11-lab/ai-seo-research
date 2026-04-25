@@ -17,16 +17,18 @@
 
 ## Key Insights
 
-- General SEO discussion
+- Recovery requires fundamental improvements to site quality
+- Technical fixes alone cannot solve content quality issues
 
 ---
 
 ## Actionable Takeaways
 
-- Apply general SEO strategy
+- Audit for intrusive ads or poor mobile UX
+- Refresh outdated content with contemporary data
 
 ---
 
 ## System Implication (SEO / AI)
 
-SEO is evolving into a multi-signal ranking system beyond keywords.
+Search systems are self-correcting; quality must be built-in, not bolted-on

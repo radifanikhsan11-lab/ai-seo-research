@@ -17,16 +17,18 @@
 
 ## Key Insights
 
-- Content originality and depth are key SEO signals
+- First-hand "Experience" is the most valued E-E-A-T signal
+- Trust is the central pillar that supports all other ranking factors
 
 ---
 
 ## Actionable Takeaways
 
-- Create more original, high-value content
+- Showcase author expertise and real-world testing in content
+- Remove low-quality content that dilutes site authority
 
 ---
 
 ## System Implication (SEO / AI)
 
-SEO is evolving into a multi-signal ranking system beyond keywords.
+Google is moving toward an "Identity-First" ranking model.

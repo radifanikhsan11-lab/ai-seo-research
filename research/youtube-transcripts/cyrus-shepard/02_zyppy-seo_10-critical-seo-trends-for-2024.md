@@ -17,16 +17,18 @@
 
 ## Key Insights
 
-- General SEO discussion
+- User engagement signals (clicks/long-clicks) remain primary factors
+- Post-click behavior tells Google if a page is high quality
 
 ---
 
 ## Actionable Takeaways
 
-- Apply general SEO strategy
+- Optimize titles for high engagement
+- Improve page layouts to reduce user bounce
 
 ---
 
 ## System Implication (SEO / AI)
 
-SEO is evolving into a multi-signal ranking system beyond keywords.
+Interaction data is the main feedback loop for modern search algorithms

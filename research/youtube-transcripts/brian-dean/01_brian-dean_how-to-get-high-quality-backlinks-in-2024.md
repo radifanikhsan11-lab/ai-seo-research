@@ -17,17 +17,17 @@ This video covers modern link-building strategies. Brian explains why traditiona
 
 ## Key Insights
 
-- Link building is shifting toward authority-based acquisition (Digital PR)
-- Traditional guest posting is losing effectiveness
+- Information Gain (adding new data) is the primary ranking factor in the AI era
+- AI cannot replicate personal case studies and human experience
 
 ---
 
 ## Actionable Takeaways
 
-- Focus on Digital PR instead of guest posting
-
+- Add unique data or personal opinions to every blog post
+- Focus on "Human-only" content types like original experiments
 ---
 
 ## System Implication (SEO / AI)
 
-SEO is shifting from quantity-based links to authority-driven acquisition.
+SEO is shifting from content volume to unique "Information Gain" signals.

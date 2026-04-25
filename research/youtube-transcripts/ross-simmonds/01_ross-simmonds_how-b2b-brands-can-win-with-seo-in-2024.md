@@ -17,16 +17,17 @@
 
 ## Key Insights
 
-- General SEO discussion
+- B2B buyers prioritize original proof and results
+- High-intent, low-volume keywords are more valuable than generic traffic
 
 ---
 
 ## Actionable Takeaways
 
-- Apply general SEO strategy
-
+- Create deep-dive case studies for specific niches
+- Optimize for the buyer journey rather than just keywords
 ---
 
 ## System Implication (SEO / AI)
 
-SEO is evolving into a multi-signal ranking system beyond keywords.
+B2B search is moving toward high-intent, high-trust relationship building

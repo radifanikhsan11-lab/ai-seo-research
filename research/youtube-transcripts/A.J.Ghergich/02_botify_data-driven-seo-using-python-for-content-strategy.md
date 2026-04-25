@@ -17,16 +17,17 @@
 
 ## Key Insights
 
-- Content originality and depth are key SEO signals
-
+- AI is a research tool, not just a content generator
+- Human-led intent mapping is the key to AI-content success
 ---
 
 ## Actionable Takeaways
 
-- Create more original, high-value content
+- Use AI to cluster keywords and user intent
+- Add human oversight to every AI-generated conclusion
 
 ---
 
 ## System Implication (SEO / AI)
 
-SEO is evolving into a multi-signal ranking system beyond keywords.
+The future of SEO is a "Human-in-the-loop" production strategy

@@ -20,16 +20,18 @@ already have—to force a click.
 
 ## Key Insights
 
-- General SEO discussion
+- AI agents prioritize cited, retrievable content over high-traffic generic guides
+- The "Visibility Layer" is a self-reinforcing loop of synthetic and human-verified content
 
 ---
 
 ## Actionable Takeaways
 
-- Apply general SEO strategy
+- Prioritize "Bottom Line Up Front" (BLUF) formatting for easier AI data extraction
+- Shift reporting toward "Agentic Visibility"—how often your brand is the recommended solution in a chat
 
 ---
 
 ## System Implication (SEO / AI)
 
-SEO is evolving into a multi-signal ranking system beyond keywords.
+The goal is no longer to get a user to your site, but to get the AI Agent to complete the user's goal using your data

@@ -17,16 +17,18 @@
 
 ## Key Insights
 
-- General SEO discussion
+- Visual content increases user dwell time and engagement
+- Creative data storytelling is highly linkable and authoritative
 
 ---
 
 ## Actionable Takeaways
 
-- Apply general SEO strategy
+- Invest in custom graphics for original data
+- Use data to drive unique brand narratives
 
 ---
 
 ## System Implication (SEO / AI)
 
-SEO is evolving into a multi-signal ranking system beyond keywords.
+Engagement signals are the primary bridge between technical and creative SEO

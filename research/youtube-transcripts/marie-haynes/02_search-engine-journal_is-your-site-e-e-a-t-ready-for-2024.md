@@ -17,16 +17,18 @@
 
 ## Key Insights
 
-- General SEO discussion
+- AI models prioritize "Consensus" answers from reputable sources
+- Factual accuracy is now a non-negotiable ranking requirement
 
 ---
 
 ## Actionable Takeaways
 
-- Apply general SEO strategy
+- AI models prioritize "Consensus" answers from reputable sources
+- Factual accuracy is now a non-negotiable ranking requirement
 
 ---
 
 ## System Implication (SEO / AI)
 
-SEO is evolving into a multi-signal ranking system beyond keywords.
+Trust is increasingly measured by factual alignment with trusted entities
